@@ -21,8 +21,6 @@ public class DebugCheatKeys : MonoBehaviour
             nextScene = 0;
         }
 
-        if(Input.GetKey(KeyCode.L)){
-            SceneManager.LoadScene(nextScene);
-        }
+        
     }
 }
